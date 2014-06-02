@@ -265,7 +265,7 @@ int main(int argc, char** argv) {
 	    fprintf(stderr, "%s\n", mysql_error(con));
 	    exit(1);
       }
-      if (mysql_real_connect(con, "localhost", "root", "Oliveira-90", NULL, 0, NULL, 0) == NULL) {
+      if (mysql_real_connect(con, "localhost", "****", "********", NULL, 0, NULL, 0) == NULL) {
 	    printf("ligação ao servidor falhou!!\n");
 	    finish_with_error(con);
       }  
